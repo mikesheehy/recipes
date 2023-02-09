@@ -1,0 +1,15 @@
+---
+layout: default
+title: Cuisine
+---
+<h1>Cuisine</h1>
+
+<ul>
+  {% for cuisine in site.cuisines %}
+    <li>
+        A cuisine
+      <!--<h2><a href="{{ cuisine.url }}">{{ cuisine.name }}</a></h2>
+      <p>{{ cuisine.content | markdownify }}</p>-->
+    </li>
+  {% endfor %}
+</ul>

@@ -1,4 +1,5 @@
 collections:
   authors:
+    output: true
   cuisine:
-  
+    output: true
