@@ -7,7 +7,6 @@ title: Cuisine
 <ul>
   {% for cuisine in site.cuisines %}
     <li>
-        A cuisine
       <h2><a href="{{ cuisine.url }}">{{ cuisine.name }}</a></h2>
       <p>{{ cuisine.content | markdownify }}</p>
     </li>
