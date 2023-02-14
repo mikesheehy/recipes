@@ -3,3 +3,9 @@ collections:
     output: true
   cuisines:
     output: true
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
